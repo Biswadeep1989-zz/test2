@@ -1,0 +1,41 @@
+.highlight-in-article {
+        width: 100%;
+        clear: both;
+        display: table;
+        padding: 10px 0px;
+        border: 1px dotted #FF0000;
+    }
+    
+    .highlight-in-article > h3 {
+        background: #239ea6;
+        margin: 0px;
+        padding: 7px;
+        color: #fff;
+        /* border: 1px solid #e8e8e8; */
+    }
+    
+    .highlight-in-article > ul {
+        list-style-type: none;
+        padding-left: 20px;
+        border: 1px solid #e8e8e8;
+        margin: -1px 0px 0px 0px;
+        border-top: none;
+        padding: 15px 0px 15px 20px;
+    }
+    
+    .highlight-in-article > ul.highlight-ul > li {
+        font-family: Arial;
+        font-size: 18px;
+    }
+    
+    .highlight-in-article > ul.highlight-ul > li:before {
+        /* the custom styled bullets */
+        content: "";
+        margin-right: 10px;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background-color: #c91312;
+        border-radius: 50%;
+        margin-bottom: 2px;
+    }

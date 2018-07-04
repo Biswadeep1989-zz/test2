@@ -1,0 +1,25 @@
+.more-news-in-article {
+    width: 100%;
+    clear: both;
+    border: 1px dotted #FF0000;
+    padding: 2px;
+}
+
+.more-news-in-article > h3 {
+    font-size: 27px;
+    font-weight: bold;
+    color: red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
+}
+
+.more-news-in-article > ul {
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 15px;
+    border-left: 15px solid red;
+}
+
+.more-news-in-article > ul > li {
+    list-style: none;
+}
